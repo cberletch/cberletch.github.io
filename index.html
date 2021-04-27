@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang = 'en'>
+    <head> 
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Coleton Berletch Portfolio</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.1/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" 
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+        
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="style.css">
+
+        <script src="https://kit.fontawesome.com/9d0309eb74.js" crossorigin="anonymous"></script>
+
+    </head>
+    <body> 
+        <header>
+            <div class="logo">
+                <img src="images/logo7.png" alt="">
+            </div>
+            <button class = 'nav-toggle' aria-label="toggle navigation">
+                <span class ="hamburger"> </span>
+            </button>
+            <nav class = "nav">
+                <ul class = "nav__list">
+                    <li class = "nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class = "nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                    <li class = "nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class = "nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Introduction-->
+
+        <section class = "intro" id="home">
+            <h1 class = "section__title section__title--intro">
+                Hi, I am <strong>Cole Berletch</strong>
+            </h1>
+            <p class = "section__subtitle section__subtitle--intro"> Data Analyst & Engineer &nbsp;&nbsp;</p>
+            <img src='images/test-photo.jpg' alt="A dashing picture of Cole Berletch" class="intro__img">
+        </section>
+
+        <!--My Services-->
+
+        <section class = "my-services" id="services">
+            <h2 class ="section__title section__title--services">What I do</h2>
+            <div class = "services">
+                <div class = "service">
+                    <h3>Project Management</h3>
+                    <p>Experience leading teams step-by-step through business initiatives related to software and analytics from planning, to implementation, to training. </p>
+                </div> <!-- / service-->
+
+                <div class = "service">
+                    <h3>Data Analysis & Visualization</h3>
+                    <p>Over a year of experience in mining business data to spot trends 
+                    and provide companies with the information they need to make decisions around hiring,
+                    compensation, M&A, and more.</p>
+                </div> <!-- / service-->
+
+                <div class = "service">
+                    <h3>Software Development</h3>
+                    <p>With a love for developing software that improves business, I've developed 
+                    proprietary business applications that automate processes and improve overall efficiency.</p>
+                </div> <!-- / service-->
+
+            </div><!-- / services-->
+
+            <a href="#work" class="btn">My Work</a>
+        </section>
+
+        <!-- About Me-->
+
+        <section class = "about-me" id="about">
+            <h2 class = "section__title section__title--about">Who I am</h2>
+            <p class="section__subtitle section__subtitle--about">Data Analyst & Engineer based in the Ohio Valley</p> 
+
+            <div class = "about-me__body">
+                <p>I grew up in Benwood, West Virginia with an interest in computers from a young age. After graduating from West Liberty University in May of 2020, I
+                got started working as a data analyst for McKinley Carter Wealth Services. Since then, I have consulted for a few different firms in the area, helping 
+                them reach success on their analytics iniatives. </p>
+                <p></p>
+            </div>
+
+            <img src = "images/my-photo.jpg" alt="another picture of cole" class="about-me__img">
+        </section>
+
+        <!-- My Work-->
+
+        <section class = "my-work" id="work">
+            <h2 class = "section__title section__title--work">My Work</h2>
+            <p class = "section__subtitle section__subtitle--work"></p>
+
+            <div class = "portfolio">
+                <!-- Portfolio item 01-->
+                <a href="portfolio-item.html" class="portfolio__item">
+                    <img src = "images/portfolio-01.jpg" alt = "" class ="portfolio__img">
+                </a>
+                <!-- Portfolio item 02-->
+                <a href="#" class="portfolio__item">
+                    <img src = "images/portfolio-02.jpg" alt = "" class ="portfolio__img">
+                </a>
+                <!-- Portfolio item 03-->
+                <a href="#" class="portfolio__item">
+                    <img src = "images/portfolio-03.jpg" alt = "" class ="portfolio__img">
+                </a>
+                <!-- Portfolio item 04-->
+                <a href="#" class="portfolio__item">
+                    <img src = "images/portfolio-04.jpg" alt = "" class ="portfolio__img">
+                </a>
+            </div>
+        </section>
+
+        <!--Footer-->
+
+        <footer class = "footer">
+            <a href="mailto:coleberletch@gmail.com" class="footer-link">coleberletch@gmail.com</a>
+            <ul class = "social-list">
+                <li class = "social-list__item"> <a class = "social-list__link" href="https://github.com/cberletch"><i class="fab fa-github"></i></a></li>
+                <li class = "social-list__item"> <a class = "social-list__link" href="https://www.linkedin.com/in/coletonberletch/"><i class="fab fa-linkedin"></i></a></li>
+                <li class = "social-list__item"> <a class = "social-list__link" href="https://www.hackerrank.com/coleberletch"><i class="fab fa-hackerrank"></i></a></li>
+                <li class = "social-list__item"> <a class = "social-list__link" href="linktoresumedotcom"><i class="fas fa-file"></i></a></li>
+            </ul>
+        </footer>
+        <script src="scripts.js"></script>
+    </body>
+</html>
